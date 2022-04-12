@@ -9,7 +9,7 @@ public class PlayMove : MonoBehaviour
     public void PlayMoveScene()
     {
 
-        SceneManager.LoadScene(sceneName: "Play");
+        SceneManager.LoadScene(sceneName: "Loading");
 
 
     }
