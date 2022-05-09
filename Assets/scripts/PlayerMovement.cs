@@ -1,11 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< Updated upstream
 
-=======
-using Photon.Pun;
->>>>>>> Stashed changes
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D body;
@@ -14,10 +10,6 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private bool grounded;
-<<<<<<< Updated upstream
-=======
-    PhotonView view;
->>>>>>> Stashed changes
 
     private void Awake()
     {
@@ -25,15 +17,10 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-<<<<<<< Updated upstream
-=======
-        view= GetComponent<PhotonView>();
->>>>>>> Stashed changes
     }
 
     private void Update()
     {
-<<<<<<< Updated upstream
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed , body.velocity.y);
 
@@ -51,28 +38,6 @@ public class PlayerMovement : MonoBehaviour
         //Set animator parameters
         anim.SetBool("walk", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
-=======
-        if (view.IsMine)
-        {
-            float horizontalInput = Input.GetAxis("Horizontal");
-            body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-
-            //Flip player when moving left and right
-            if (horizontalInput < 0.01f)
-                transform.localScale = Vector3.one;
-            else if (horizontalInput > -0.01f)
-                transform.localScale = new Vector3(-1, 1, 1);
-
-            if (Input.GetKey(KeyCode.Space) && grounded)
-            {
-                Jump();
-            }
-
-            //Set animator parameters
-            anim.SetBool("walk", horizontalInput != 0);
-            anim.SetBool("grounded", grounded);
-        }
->>>>>>> Stashed changes
     }
 
     private void Jump()
