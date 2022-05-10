@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9ab37681370b4f4aa8407735c310553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 5310420211742921665, guid: 4847d4094cbea014aac3e8630407f9a0, type: 3}
+  cam: {fileID: 7266906130408580921, guid: 0220deb6085118d479a22d43957086db, type: 3}
   groundLayer:
     serializedVersion: 2
     m_Bits: 0

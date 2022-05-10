@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Back : MonoBehaviour
 {
-    public void To_Menu()
+    public void Update()
     {
-        SceneManager.LoadScene(sceneName: "SampleScene");
+        if (Input.GetKey("escape"))
+            SceneManager.LoadScene(sceneName: "SampleScene");
     }
 }
