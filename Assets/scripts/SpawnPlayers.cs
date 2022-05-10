@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerprefab;
-
     public float minX;
     public float minY;
     public float maxX;
@@ -23,5 +22,6 @@ public class SpawnPlayers : MonoBehaviour
         Vector2 randomPosition = new Vector2(1, 1);
 
         PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
+        
     }
 }

@@ -7,6 +7,7 @@ using Photon.Pun;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] public Camera cam;
     private Rigidbody2D body;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float speed;
@@ -34,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (view.IsMine)
         {
+            cam.transform.position = body.transform.position; //+ new Vector3(0, 1, -5);
             float horizontalInput = Input.GetAxis("Horizontal");
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
