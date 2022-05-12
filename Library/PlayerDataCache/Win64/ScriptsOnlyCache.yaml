@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CreateAndJoinRooms
     - Exit_The_Game
     - Move_To_Tutorial
+    - Platform_Behavior
     - PlayMove
     - PlayerMovement
     - SceneLoader
@@ -22,7 +23,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -138,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5662}
     - Class: 114
       Script: {instanceID: 5936}
+    - Class: 114
+      Script: {instanceID: 54266}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -408,6 +412,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6206}
     - Class: 114
       Script: {instanceID: 6298}
+    - Class: 114
+      Script: {instanceID: 54266}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -785,7 +791,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: 1a433ad37410d56165efb6ebbb3b325b
+      Hash: ec1b0d2cb524454b5f5ffd3b937d49e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -1899,6 +1905,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: d8f6b007fd21ff5f8d4bd88f1d5ac95f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Platform_Behavior
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

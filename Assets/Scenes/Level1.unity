@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60473724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0047, y: -4.5078, z: 0}
+  m_LocalPosition: {x: 0, y: -6, z: 0}
   m_LocalScale: {x: 211.281, y: 12.7944, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &915893868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -440,7 +440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1865342327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865342326}
   m_LocalRotation: {x: -0.011584608, y: -0.011640209, z: 0.7087094, w: 0.70530945}
-  m_LocalPosition: {x: 14.3, y: -2.7, z: 0}
+  m_LocalPosition: {x: 14.4, y: -2.7, z: 0}
   m_LocalScale: {x: 211.281, y: 12.7944, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -576,6 +576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerprefab: {fileID: 5810674311172830608, guid: 1d9bb82c49674cc4b8b57792faa16757, type: 3}
+  Terrarian: {fileID: 5209207069250529739, guid: 5ce8071636dd40a43b742c3be5dd2b66, type: 3}
   minX: 0
   minY: 0
   maxX: 0
