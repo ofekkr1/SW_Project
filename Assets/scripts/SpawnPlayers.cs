@@ -8,6 +8,7 @@ public class SpawnPlayers : MonoBehaviour
 {
     public GameObject playerprefab;
     public GameObject Terrarian;
+    public GameObject Camera;
     public float minX;
     public float minY;
     public float maxX;
@@ -16,8 +17,9 @@ public class SpawnPlayers : MonoBehaviour
     {
 
 
-       
-        
+
+        //PhotonNetwork.Instantiate(Camera.name, new Vector2(1, (float)-5.437313), Quaternion.identity);
+
         Vector2 randomPosition = new Vector2(1, -6);
         for (int i = 1; i < 30; i++)
         {
