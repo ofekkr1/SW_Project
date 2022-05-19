@@ -13,7 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     private Animator anim;
     private BoxCollider2D boxCollider;
+    public GameObject ground;
     private bool grounded;
+    public GameObject[] Platforms; 
 
     PhotonView view;
 
@@ -24,9 +26,10 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        GameObject[] Platforms = GameObject.FindGameObjectsWithTag("Ground");
 
 
-        view= GetComponent<PhotonView>();
+        view = GetComponent<PhotonView>();
 
     }
 
@@ -45,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
             else if (horizontalInput > -0.01f)
                 transform.localScale = new Vector3(-1, 1, 1);
 
-            if (Input.GetKey(KeyCode.Space) && grounded)
+            if (Input.GetKey(KeyCode.Space) && grounded )
             {
                 Jump();
             }
@@ -65,8 +68,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
+        {
             grounded = true;
+            if (!(collision.gameObject.tag == "Ground") && collision.gameObject.tag == "Platform")
+            {
+                if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+                {
+                    body.velocity=new Vector2(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x,body.velocity.y);
+                    print("coll");
+                }
+
+            }
+        }
+        else
+            grounded = false;
     }
 
     private bool isGrounded()

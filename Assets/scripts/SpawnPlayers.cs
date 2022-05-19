@@ -18,15 +18,20 @@ public class SpawnPlayers : MonoBehaviour
 
 
 
-        //PhotonNetwork.Instantiate(Camera.name, new Vector2(1, (float)-5.437313), Quaternion.identity);
 
         Vector2 randomPosition = new Vector2(1, -6);
-        for (int i = 1; i < 30; i++)
+        if (PhotonNetwork.IsMasterClient)
         {
-            int Pos_x = Random.Range(-10, 10);
-            PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4*i), Quaternion.identity);
+            
+            for (int i = 1; i < 30; i++)
+            {
+                int Pos_x = Random.Range(-10, 10);
+                PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * i), Quaternion.identity);
+            }
         }
         PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
-        
+        print(GameObject.FindGameObjectsWithTag("Player").Length);
+
+
     }
 }

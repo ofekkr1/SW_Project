@@ -18,7 +18,8 @@ public class CameraBehavior : MonoBehaviour
     void Update()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        cam.transform.position =players[0].transform.position;
-        print(players[0].transform.position);
+        if(players.Length>0)
+            cam.transform.position =players[0].transform.position;
+       // print(players[0].transform.position);
     }
 }

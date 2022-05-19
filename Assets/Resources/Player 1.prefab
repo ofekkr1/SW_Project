@@ -135,7 +135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5810674311172830619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,8 +151,9 @@ MonoBehaviour:
   cam: {fileID: 7266906130408580921, guid: 0220deb6085118d479a22d43957086db, type: 3}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   speed: 10
+  ground: {fileID: 7770279853598969995, guid: 0837bdc554ae0894980861134206548d, type: 3}
 --- !u!95 &5810674311172830618
 Animator:
   serializedVersion: 3
