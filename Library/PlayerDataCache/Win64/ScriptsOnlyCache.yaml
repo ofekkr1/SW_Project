@@ -27,7 +27,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonAnimatorViewEditor
     - Photon.Pun.PhotonTransformViewEditor
     - Photon.Pun.PhotonViewInspector
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -954,7 +953,7 @@ ScriptsOnlyBuild:
     className: PhotonRigidbody2DView
   - hash:
       serializedVersion: 2
-      Hash: c696550755d73fb567af13d7279f0bad
+      Hash: 99fbaffecf8865a56ff7192e60173ba9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement

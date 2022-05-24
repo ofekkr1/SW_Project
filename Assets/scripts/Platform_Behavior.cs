@@ -16,17 +16,17 @@ public class Platform_Behavior : MonoBehaviour
     {
         body= GetComponent<Rigidbody2D>();
         view = GetComponent<PhotonView>();
-        body.velocity = new Vector2(speed, body.velocity.y);
+       // body.velocity = new Vector2(body.velocity.x, -1);
     }
 
     void Update()
     {
         
-        if (body.transform.position.x > 6)
-            body.velocity = new Vector2(-speed,body.velocity.y);
-        else if(body.transform.position.x < -6)
-        {
-            body.velocity = new Vector2(speed, body.velocity.y);
-        }
+       // if (body.transform.position.x > 6)
+         //   body.velocity = new Vector2(-speed,body.velocity.y);
+        //else if(body.transform.position.x < -6)
+        //{
+          //  body.velocity = new Vector2(speed, body.velocity.y);
+        //}
     }
 }

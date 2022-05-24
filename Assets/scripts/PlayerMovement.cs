@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (view.IsMine)
         {
+
             cam.transform.position = body.transform.position; //+ new Vector3(0, 1, -5);
             float horizontalInput = Input.GetAxis("Horizontal");
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
@@ -48,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
             else if (horizontalInput > -0.01f)
                 transform.localScale = new Vector3(-1, 1, 1);
 
-            if (Input.GetKey(KeyCode.Space) && grounded )
+            if (Input.GetKey(KeyCode.Space) && isGrounded())
             {
                 Jump();
             }
@@ -62,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
+        body.velocity = new Vector2(body.velocity.x, speed+5);
         anim.SetTrigger("jump");
     }
 
@@ -71,15 +72,15 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
         {
             grounded = true;
-            if (!(collision.gameObject.tag == "Ground") && collision.gameObject.tag == "Platform")
-            {
-                if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
-                {
-                    body.velocity=new Vector2(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x,body.velocity.y);
-                    print("coll");
-                }
+            //if (!(collision.gameObject.tag == "Ground") && collision.gameObject.tag == "Platform")
+            //{
+            //    if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+            //    {
+            //        body.velocity=new Vector2(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x,body.velocity.y);
+            //        print("coll");
+            //    }
 
-            }
+            //}
         }
         else
             grounded = false;
@@ -88,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded()
     {
         RaycastHit2D raycaseHit = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        print(raycaseHit.collider != null);
         return raycaseHit.collider != null;
     }
 }
