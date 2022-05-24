@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         if (view.IsMine)
         {
 
-            cam.transform.position = body.transform.position; //+ new Vector3(0, 1, -5);
+            cam.transform.position = body.transform.position; 
             float horizontalInput = Input.GetAxis("Horizontal");
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
@@ -89,7 +89,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded()
     {
         RaycastHit2D raycaseHit = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
-        print(raycaseHit.collider != null);
         return raycaseHit.collider != null;
     }
 }
