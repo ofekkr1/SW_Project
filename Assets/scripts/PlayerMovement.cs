@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
+        if (collision.gameObject.tag .Equals("Ground") || collision.gameObject.tag.Equals( "Platform"))
         {
             grounded = true;
             //if (!(collision.gameObject.tag == "Ground") && collision.gameObject.tag == "Platform")

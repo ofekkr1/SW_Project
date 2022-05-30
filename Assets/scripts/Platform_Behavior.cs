@@ -50,7 +50,7 @@ public class Platform_Behavior : MonoBehaviour
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
         foreach (GameObject player in players)
         {
-            if ((player.GetComponent<BoxCollider2D>().IsTouching(this.GetComponent<BoxCollider2D>())))
+            if ((player.GetComponent<BoxCollider2D>().IsTouching(this.GetComponent<BoxCollider2D>())) && player.transform.position.y>=15)
             {
                 return true;
             }
