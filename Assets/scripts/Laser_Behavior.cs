@@ -4,40 +4,61 @@ using UnityEngine;
 
 public class Laser_Behavior : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private BoxCollider2D collision;
+    private GameObject[] platforms;
+    public GameObject Ground;
+    public GameObject Player;
     void Start()
     {
-        
+        collision = Ground.GetComponent<BoxCollider2D>();
+        Physics2D.IgnoreCollision(collision, this.GetComponent<BoxCollider2D>(), true);
+        platforms= GameObject.FindGameObjectsWithTag("Platform");
+        foreach(GameObject platform in platforms)
+        {
+            Physics2D.IgnoreCollision(platform.GetComponent<BoxCollider2D>(), this.GetComponent<BoxCollider2D>(), true);
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(checkPlayercoll())
-        this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, 3);
+        if ((this.GetComponent<Rigidbody2D>().velocity.y!=3 && this.GetComponent<Rigidbody2D>().velocity.y!=0) || Player.transform.position.y>=15)
+        {
+            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, 3);
+        }
+        else
+        {
+            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)0.01);
+
+        }
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag =="Platform" || collision.gameObject.tag =="Player" )
+        Physics2D.IgnoreCollision(collision.collider, this.GetComponent<BoxCollider2D>(), true);
+        
+        if (collision.gameObject.tag == "Player")
         {
-            Physics2D.IgnoreCollision(collision.collider, this.GetComponent<BoxCollider2D>(), true);
-            print("something");
+            collision.gameObject.SetActive(false);
         }
     }
 
     bool checkPlayercoll()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
-        GameObject[] Platforms = GameObject.FindGameObjectsWithTag("Platform");
         foreach (GameObject player in players)
         {
-            foreach(GameObject Platform in Platforms)
-            if ((player.GetComponent<BoxCollider2D>().IsTouching(Platform.GetComponent<BoxCollider2D>())) && player.transform.position.y >= 15)
-            {
-                return true;
-            }
+            foreach (GameObject Platform in platforms)
+
+                if ((player.GetComponent<BoxCollider2D>().IsTouching(Platform.GetComponent<BoxCollider2D>())) && player.transform.position.y >= 15)
+                {
+                    return true;
+                }
         }
         return false;
     }
+
 }

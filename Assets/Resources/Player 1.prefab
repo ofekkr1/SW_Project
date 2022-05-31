@@ -148,13 +148,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9ab37681370b4f4aa8407735c310553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 7266906130408580921, guid: 0220deb6085118d479a22d43957086db, type: 3}
+  cam: {fileID: 9206446848759141979, guid: ec4ba34ad4b3e0f48817893644273537, type: 3}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  PlatformLayer:
+    serializedVersion: 2
+    m_Bits: 64
   speed: 10
-  ground: {fileID: 7770279853598969995, guid: 0837bdc554ae0894980861134206548d, type: 3}
+  ground: {fileID: 5211791448182682077, guid: 0837bdc554ae0894980861134206548d, type: 3}
   Platforms: []
+  username: {fileID: 1435878732898106702, guid: 146e5b2e428b49442b3be54be8794581, type: 3}
+  canvas1: {fileID: 7352618100171899906, guid: f56b14fcb0b0d8d489052bcee9679d1f, type: 3}
 --- !u!95 &5810674311172830618
 Animator:
   serializedVersion: 3

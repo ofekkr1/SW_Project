@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 using Photon.Pun;
 
@@ -10,15 +10,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public Camera cam;
     private Rigidbody2D body;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask PlatformLayer;
     [SerializeField] private float speed;
     private Animator anim;
     private BoxCollider2D boxCollider;
     public GameObject ground;
     private bool grounded;
-    public GameObject[] Platforms; 
-
+    public GameObject[] Platforms;
+    [SerializeField] public Text username;
     PhotonView view;
-
+    public Canvas canvas1;
 
     private void Awake()
     {
@@ -27,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         GameObject[] Platforms = GameObject.FindGameObjectsWithTag("Ground");
-
+        print(username.text);
 
         view = GetComponent<PhotonView>();
 
@@ -39,6 +40,13 @@ public class PlayerMovement : MonoBehaviour
         if (view.IsMine)
         {
 
+            canvas1.transform.position = this.transform.position;
+            if (this.GetComponent<Rigidbody2D>().position.y < -50)
+            {
+
+                this.gameObject.SetActive(false);
+                
+            }
             cam.transform.position = body.transform.position; 
             float horizontalInput = Input.GetAxis("Horizontal");
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
@@ -69,18 +77,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag .Equals("Ground") || collision.gameObject.tag.Equals( "Platform"))
+        if (collision.gameObject.tag .Equals("Ground") || collision.gameObject.tag.Equals("Platform"))
         {
             grounded = true;
-            //if (!(collision.gameObject.tag == "Ground") && collision.gameObject.tag == "Platform")
-            //{
-            //    if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
-            //    {
-            //        body.velocity=new Vector2(collision.gameObject.GetComponent<Rigidbody2D>().velocity.x,body.velocity.y);
-            //        print("coll");
-            //    }
-
-            //}
+            
         }
         else
             grounded = false;
@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded()
     {
-        RaycastHit2D raycaseHit = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
-        return raycaseHit.collider != null;
+        RaycastHit2D raycaseHit1 = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycaseHit1.collider != null;
     }
 }

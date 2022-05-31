@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - CreateAndJoinRooms
     - Exit_The_Game
     - Ground_Behavior
+    - IgnoreCollide
     - Laser_Behavior
     - Move_To_Tutorial
     - Platform_Behavior
@@ -16,6 +17,7 @@ ScriptsOnlyBuild:
     - SceneMove
     - Show_Room_List
     - SpawnPlayers
+    - UsernameBehavior
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -26,6 +28,10 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonAnimatorViewEditor
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -47,6 +53,14 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -87,7 +101,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -130,13 +144,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
       Script: {instanceID: 2568}
+    - Class: 114
+      Script: {instanceID: 2836}
     - Class: 114
       Script: {instanceID: 2866}
     - Class: 114
+      Script: {instanceID: 3020}
+    - Class: 114
       Script: {instanceID: 3140}
     - Class: 114
+      Script: {instanceID: 3274}
+    - Class: 114
       Script: {instanceID: 3542}
+    - Class: 114
+      Script: {instanceID: 3552}
     - Class: 114
       Script: {instanceID: 3554}
     - Class: 114
@@ -144,12 +168,18 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 4558}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 40762}
+      Script: {instanceID: 5944}
+    - Class: 114
+      Script: {instanceID: 49470}
+    - Class: 114
+      Script: {instanceID: 73268}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -158,6 +188,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Loading.unity:
     - Class: 1
@@ -242,11 +278,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 4886}
+      Script: {instanceID: 4888}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,15 +333,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 4886}
+      Script: {instanceID: 4888}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 40366}
+      Script: {instanceID: 6214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -408,25 +444,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4510}
     - Class: 114
-      Script: {instanceID: 4776}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 4782}
+      Script: {instanceID: 4784}
     - Class: 114
-      Script: {instanceID: 4886}
+      Script: {instanceID: 4888}
     - Class: 114
-      Script: {instanceID: 5018}
+      Script: {instanceID: 5020}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 5088}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5668}
     - Class: 114
-      Script: {instanceID: 5852}
+      Script: {instanceID: 5856}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6302}
+      Script: {instanceID: 6306}
+    - Class: 114
+      Script: {instanceID: 73268}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -804,7 +842,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: f967836ce51e6a92fdc81d7b3d5ed05e
+      Hash: 017ba9af94003a0a308dc152b856b8de
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -960,7 +998,7 @@ ScriptsOnlyBuild:
     className: PhotonRigidbody2DView
   - hash:
       serializedVersion: 2
-      Hash: 99fbaffecf8865a56ff7192e60173ba9
+      Hash: 9fa0a07a7ccf0a80cd0961e17209f4f4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -1380,6 +1418,12 @@ ScriptsOnlyBuild:
     className: TextToggleIsOnTransition
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Laser_Behavior
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1740,6 +1784,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Show_Room_List
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1932,16 +1982,16 @@ ScriptsOnlyBuild:
     className: UserIdUiForm
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 58462b8234037407e9e64694e0d08f0f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Show_Room_List
+    className: IgnoreCollide
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 83e769eee07fc231384c812eedbb8224
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Laser_Behavior
+    className: UsernameBehavior
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
