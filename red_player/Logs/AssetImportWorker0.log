@@ -1,0 +1,1140 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16119 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/reefi/OneDrive/שולחן העבודה/gem
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55919
+Successfully changed project path to: C:/Users/reefi/OneDrive/שולחן העבודה/gem
+C:/Users/reefi/OneDrive/שולחן העבודה/gem
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 268.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/reefi/OneDrive/שולחן העבודה/gem/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti with Max-Q Design (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.6677
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009982 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 188.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2153ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1650ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (563ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 156.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3199ms)
+		BeginReloadAssembly (478ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2546ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (775ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (548ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 11.745200 ms (FindLiveObjects: 0.434500 ms CreateObjectMapping: 0.325500 ms MarkObjects: 10.291000 ms  DeleteObjects: 0.691400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/green/kit_green.png
+  artifactKey: Guid(3c78ccf1c3a7afd4d89bdb68e93047d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/green/kit_green.png using Guid(3c78ccf1c3a7afd4d89bdb68e93047d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c26ba7f92c80ca9213d1b19825900b') in 0.438825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/orange/kit_orange.png
+  artifactKey: Guid(631559a710b49244ebcace100e0dc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/orange/kit_orange.png using Guid(631559a710b49244ebcace100e0dc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547193770b4a27b5d794a10e98983986') in 0.087300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/purple/kit_purple.png
+  artifactKey: Guid(f020df5376a4b49438c165aa02091274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/purple/kit_purple.png using Guid(f020df5376a4b49438c165aa02091274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a258eaf4b71325221041a19118a2f5') in 0.083829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/red/kit_red.png
+  artifactKey: Guid(035e8399e8eb7c04ebca64bf8b4ef114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/red/kit_red.png using Guid(035e8399e8eb7c04ebca64bf8b4ef114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c917d6d4de19ca99ad5214533530cff8') in 0.083713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.395683 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png
+  artifactKey: Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Idle (32x32).png using Guid(3750f45c844123341b9a777a96cb1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78a60da87afb4cfa12ec0aa330aa120') in 0.143848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png
+  artifactKey: Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Idle (32x32).png using Guid(40de9a8703e2e5a47882b0b86451c741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4b463987bbc747202d88c3abc79a58') in 0.088046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png
+  artifactKey: Guid(cd947491a13509945aa1b644f9db3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Idle (32x32).png using Guid(cd947491a13509945aa1b644f9db3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb80162446f05cf7f2bf187ed22b35') in 0.102586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png
+  artifactKey: Guid(d348dff3819df794186a80cb95777629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Idle (32x32).png using Guid(d348dff3819df794186a80cb95777629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afeb6f676eb54ff9aed172f70830c8b') in 0.100790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.073929 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png
+  artifactKey: Guid(f42176bbc0b84b54e83c161abc6eb071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Arrow/Idle (18x18).png using Guid(f42176bbc0b84b54e83c161abc6eb071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bc01c9bb8971653a6db86b217494b7') in 0.150457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png
+  artifactKey: Guid(8d9b0e740a31fbf448f91aaf8ea38ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/Idle.png using Guid(8d9b0e740a31fbf448f91aaf8ea38ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596281733fa21264d59e27f235cc297f') in 0.063518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png
+  artifactKey: Guid(da2176ef0629bfd42958a94b2bf225a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spikes/Idle.png using Guid(da2176ef0629bfd42958a94b2bf225a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc4c96bdd4c490ab58c4a1808bd250e') in 0.042309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png
+  artifactKey: Guid(f7472d29deaa7414abffd38318319096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box2/Idle.png using Guid(f7472d29deaa7414abffd38318319096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb4f96c5ba007f292d38c75f11632c2') in 0.052388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png
+  artifactKey: Guid(1508ab85aab80754fb0213cd79267961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Idle.png using Guid(1508ab85aab80754fb0213cd79267961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d9f1762830a561d02877b50bf274b') in 0.046482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png
+  artifactKey: Guid(282fa6659f7eabb4f88d7cd347ae7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Idle.png using Guid(282fa6659f7eabb4f88d7cd347ae7723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e5caf0e9bc30ea20fa87d41b346e9') in 0.054346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png
+  artifactKey: Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png using Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43814d0b721fe865b1042da3a3716169') in 0.108973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png
+  artifactKey: Guid(4668f08864533f24b9b5980d5cc57089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Items/Checkpoints/End/End (Idle).png using Guid(4668f08864533f24b9b5980d5cc57089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685ab5af06189266240c4a092e400b21') in 0.048083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png
+  artifactKey: Guid(82025043983216e4dbc6a6805bc1d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Trampoline/Idle.png using Guid(82025043983216e4dbc6a6805bc1d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bdc8d94a149b33808b4f8cca62fbad') in 0.046651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png
+  artifactKey: Guid(48fd9917466ade44fa9bfd8326fab049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box1/Idle.png using Guid(48fd9917466ade44fa9bfd8326fab049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54efc8b59986e2716f51a1e0031c60de') in 0.045751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png
+  artifactKey: Guid(bcb85d05bbdb8a2468fe865da75a2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Items/Boxes/Box3/Idle.png using Guid(bcb85d05bbdb8a2468fe865da75a2795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8340534996cb5eb65d845fab36a30427') in 0.036199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3111.427807 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_01.png
+  artifactKey: Guid(27132f1495450814da08717e563ccd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_01.png using Guid(27132f1495450814da08717e563ccd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c0c10e41dadf3a3d417b59ce8394d9') in 0.030193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_03.png
+  artifactKey: Guid(5739cf8cd6ac4894bb2c72f7c6049904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_03.png using Guid(5739cf8cd6ac4894bb2c72f7c6049904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8ac1174735011fe3536b59154c8922') in 0.028192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_07.png
+  artifactKey: Guid(690d16f9203873f4198364ff1de9aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_07.png using Guid(690d16f9203873f4198364ff1de9aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf67feb1c3f8fe7b1c7045aedb14d22a') in 0.030254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_05.png
+  artifactKey: Guid(a9da9c0a0a743d742bcf608bc896ff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_05.png using Guid(a9da9c0a0a743d742bcf608bc896ff8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af7100130a5b5ad9d78ff32fd4e17c3') in 0.023529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_02.png
+  artifactKey: Guid(7c83c256cb935a94bab9aca4be991b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_02.png using Guid(7c83c256cb935a94bab9aca4be991b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3632230e2d794a5430138e1858e7e1') in 0.024691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_04.png
+  artifactKey: Guid(9b71ecedd1fe08b4880369a00256fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_04.png using Guid(9b71ecedd1fe08b4880369a00256fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad08be0b97e2ccd748726ba7ebdbba82') in 0.022926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_06.png
+  artifactKey: Guid(11f4b9224196d1a4b8025fdb7686a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_06.png using Guid(11f4b9224196d1a4b8025fdb7686a0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4348fcc6e8d543d7311d7b41178b8637') in 0.024089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 676.781080 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_08.png
+  artifactKey: Guid(91a112f8898bbd94bbebeb83c802ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_08.png using Guid(91a112f8898bbd94bbebeb83c802ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a152498536868a6e02387100c828ce1') in 0.020378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_10.png
+  artifactKey: Guid(25ff674f648b9b747abcae5a0e9c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_10.png using Guid(25ff674f648b9b747abcae5a0e9c270e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2462cb61846dee6245ea320b265af9bc') in 0.021040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_09.png
+  artifactKey: Guid(537a6097e1acd2c4b96f99de004c3355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_09.png using Guid(537a6097e1acd2c4b96f99de004c3355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6990ad2023e8a6f532d439b553d0cd2d') in 0.023214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.179283 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_11.png
+  artifactKey: Guid(cdb3e3a0fcb8d2441bd364f5b0fe52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_11.png using Guid(cdb3e3a0fcb8d2441bd364f5b0fe52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8cf53b2b5a599e987df7df58d12e09') in 0.019739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_15.png
+  artifactKey: Guid(12e468536ddba4f488a4dc0a488c2645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_15.png using Guid(12e468536ddba4f488a4dc0a488c2645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72d3e010e1723dc79b77d9b39b6899c') in 0.020480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_17.png
+  artifactKey: Guid(a266ef453ef569d4997646addf86acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_17.png using Guid(a266ef453ef569d4997646addf86acbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bb3766963dddbe7f8cf0ede70334ca') in 0.023953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_19.png
+  artifactKey: Guid(6a365aca8ea5ed940a745800cdeb2b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_19.png using Guid(6a365aca8ea5ed940a745800cdeb2b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aca48ea6f417d2227fec690f34dbfd') in 0.030464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_14.png
+  artifactKey: Guid(6c01e0981f9da3847a40b744ac5b37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_14.png using Guid(6c01e0981f9da3847a40b744ac5b37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dd28be24ba7ccbd678fea91be9c91e') in 0.027376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_20.png
+  artifactKey: Guid(26feaf355a3b6d24ebcf4cb8e1de25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_20.png using Guid(26feaf355a3b6d24ebcf4cb8e1de25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74ebbfb2f5bbb1a8140c6478bfdd6ba') in 0.020359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_21.png
+  artifactKey: Guid(40dda8a5828c8974182b097c2957c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_21.png using Guid(40dda8a5828c8974182b097c2957c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61c63ee3361ff1d5b32782cb2721318') in 0.021492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_18.png
+  artifactKey: Guid(985bc9f466b76a2468b4246bcd5a1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_18.png using Guid(985bc9f466b76a2468b4246bcd5a1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cec72dd8cee06356cdaa41dcad27ef') in 0.024297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_12.png
+  artifactKey: Guid(88e3f8ef78f693a4b96cca70151811b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_12.png using Guid(88e3f8ef78f693a4b96cca70151811b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15051f08c7f5ba54949bcc0ef9446ddf') in 0.022429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_22.png
+  artifactKey: Guid(e0ebd221968db6349a6103b568631a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_22.png using Guid(e0ebd221968db6349a6103b568631a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09ea6357d9f165825ddcdaba2fe8c39') in 0.021528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_13.png
+  artifactKey: Guid(f6aca7ba9128ecc489a139f63740d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_13.png using Guid(f6aca7ba9128ecc489a139f63740d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d4ddac1c9005ac6c55b07a1f86bce') in 0.023199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_16.png
+  artifactKey: Guid(8e859683fbf41b841a1660547afab09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_16.png using Guid(8e859683fbf41b841a1660547afab09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec594fedf97a2e64c53c2da4338e96be') in 0.020821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085471 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_23.png
+  artifactKey: Guid(5b922374d33f04940a5bb2caa93bd69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_23.png using Guid(5b922374d33f04940a5bb2caa93bd69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546ae37c2280adb5c592af71a3555de') in 0.030971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_24.png
+  artifactKey: Guid(4d571be46a80ba64fa4a81b9c8a8c35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_24.png using Guid(4d571be46a80ba64fa4a81b9c8a8c35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24633752db2deb353221b447ae983bb5') in 0.019098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_28.png
+  artifactKey: Guid(f782bb075eebbd341b8b298c8a0cd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_28.png using Guid(f782bb075eebbd341b8b298c8a0cd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5b2d8b06d77f60408e9653edca71f9') in 0.024431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_27.png
+  artifactKey: Guid(85a0cd688bbebff46b502364f67cbfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_27.png using Guid(85a0cd688bbebff46b502364f67cbfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e3d17833248d52ff8f19b2a4865c4b') in 0.024432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_30.png
+  artifactKey: Guid(8dc27338f6a3e084f8d8b5088b79a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_30.png using Guid(8dc27338f6a3e084f8d8b5088b79a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef67c875a367675308153f6f47e436cb') in 0.021857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_29.png
+  artifactKey: Guid(e1faf8868fd4ec94bbb07ff759740d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_29.png using Guid(e1faf8868fd4ec94bbb07ff759740d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90995464289f6123556921a6984fdc4e') in 0.023357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_26.png
+  artifactKey: Guid(62b47d0deb28b7a4298ae75899119994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_26.png using Guid(62b47d0deb28b7a4298ae75899119994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3769ca6078d5f5d3c713d2804fe16dde') in 0.020993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_25.png
+  artifactKey: Guid(95d48fe1c75cb5042b11ed47b9d51685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_16x32/bg_cave_blueish_16x32_tile_25.png using Guid(95d48fe1c75cb5042b11ed47b9d51685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80a625259ed0c7cc68dfc42e1dab352') in 0.021761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.948170 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_01.png
+  artifactKey: Guid(5adda8920a77f0e41a4bf1d05954aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_01.png using Guid(5adda8920a77f0e41a4bf1d05954aa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be479566d845814d73ed3bc6e4044ac6') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_03.png
+  artifactKey: Guid(35a772e7506ca1240a6d63d9b7c444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_03.png using Guid(35a772e7506ca1240a6d63d9b7c444b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7925e5ccdbd9a20795bd5d88fc097e') in 0.028902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_05.png
+  artifactKey: Guid(f3757e13ca29da041a33614faecca234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_05.png using Guid(f3757e13ca29da041a33614faecca234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc59ff9dfd4b188aed1e720c569c19b8') in 0.024125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_08.png
+  artifactKey: Guid(fd77857d5ae25784482baa0ae48656f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_08.png using Guid(fd77857d5ae25784482baa0ae48656f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd612c421d14357877d39038ba57bcb97') in 0.035009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_07.png
+  artifactKey: Guid(525b44cb6991ef14891d3787cacf9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_07.png using Guid(525b44cb6991ef14891d3787cacf9135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8cb394cd3d0239077f953fd4c15178') in 0.027666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_04.png
+  artifactKey: Guid(1cdebbf4d5294d74eb9652e241d1db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_04.png using Guid(1cdebbf4d5294d74eb9652e241d1db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56140b4776a566b25719e6f8615cd607') in 0.029150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_06.png
+  artifactKey: Guid(0def11f23a8257d4480fa008914c008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_06.png using Guid(0def11f23a8257d4480fa008914c008e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9eb5954b448e5da459327c515b3f0c') in 0.029234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_02.png
+  artifactKey: Guid(0ab901541cc28634dad10c1e4e00806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_32x32/bg_cave_blueish_32x32_tile_02.png using Guid(0ab901541cc28634dad10c1e4e00806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553fed4688578991942a3fcf281560b9') in 0.021062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044230 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_01.png
+  artifactKey: Guid(479b2ec6f1c43b244a1ac3df31456aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_01.png using Guid(479b2ec6f1c43b244a1ac3df31456aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d004be0caecfc344eccccfa5c4d5679') in 0.028510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_03.png
+  artifactKey: Guid(58f5495460a8ebc418a77d058308a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_03.png using Guid(58f5495460a8ebc418a77d058308a33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84efc81d324743e040a3d7de41ab8e63') in 0.028225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_02.png
+  artifactKey: Guid(02c9ad03724c70e4a833273fa15c4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_blueish_other/bg_cave_blueish_other_02.png using Guid(02c9ad03724c70e4a833273fa15c4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953551bf9756d39cd0c41cd10f493cf') in 0.024256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.830503 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/red/flamethrower_red.png
+  artifactKey: Guid(c2fcf69ab9813504c973c921dc85789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/red/flamethrower_red.png using Guid(c2fcf69ab9813504c973c921dc85789e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f1859444da7b1500fae1ad4aa883e8') in 0.035450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/orange/flamethrower_orange.png
+  artifactKey: Guid(f04399208a6135c4fb41af7656f45a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/orange/flamethrower_orange.png using Guid(f04399208a6135c4fb41af7656f45a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4a2fadaaa90565fd43f35e2dfdbf7e') in 0.031416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/purple/flamethrower_purple.png
+  artifactKey: Guid(67dc7307ccafef648b6dec0c19553621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/purple/flamethrower_purple.png using Guid(67dc7307ccafef648b6dec0c19553621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdb4b3a4eecdb2cc1e0b725e1470a95') in 0.034317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/2D_sci-fi_weapon/Sprites/green/flamethrower_green.png
+  artifactKey: Guid(dffc1d6b89f15ca49b76f9d27ec8d79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/2D_sci-fi_weapon/Sprites/green/flamethrower_green.png using Guid(dffc1d6b89f15ca49b76f9d27ec8d79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaf9ce31e9b2413da1d5d954045c94a') in 0.032166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.842683 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_01.png
+  artifactKey: Guid(4170f712e8619144d8f19257d0eca8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_01.png using Guid(4170f712e8619144d8f19257d0eca8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0e3e182b136d4dc423299ec0e850b0') in 0.033874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_03.png
+  artifactKey: Guid(87aa9d0ba89e79a479416900d5ae1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_03.png using Guid(87aa9d0ba89e79a479416900d5ae1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4360b00bb9123fca5a81b54f3b63dd4a') in 0.034101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_04.png
+  artifactKey: Guid(4493f174eb3e0bf48a5faf32d7043581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/bg_cave_greenish_other/bg_cave_greenish_other_04.png using Guid(4493f174eb3e0bf48a5faf32d7043581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f89453e8fc3e72f00fd6dfe2ca46206') in 0.027008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.237874 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-69.png
+  artifactKey: Guid(5401be20254194743aaeaaff5c9b3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-69.png using Guid(5401be20254194743aaeaaff5c9b3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e13bdfefaa261ab575bd033890a4ade') in 0.027667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-70.png
+  artifactKey: Guid(3ee19d0af508ca349bef66b227ce0e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-70.png using Guid(3ee19d0af508ca349bef66b227ce0e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063addbfa1c708edea3a050ba7182cf8') in 0.028382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-68.png
+  artifactKey: Guid(f49fc798b435ccf4cadc99e4410a80f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-68.png using Guid(f49fc798b435ccf4cadc99e4410a80f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1a65494613bef834f6605a735f8fe5') in 0.031599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-67.png
+  artifactKey: Guid(edb5b7a463ef2114192f1edb3c0c94e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-67.png using Guid(edb5b7a463ef2114192f1edb3c0c94e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac2240963067794d533b28a524138d1') in 0.025710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-71.png
+  artifactKey: Guid(cb10c7a371834904e9ef217e01ddc16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-71.png using Guid(cb10c7a371834904e9ef217e01ddc16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9ff10a0ff3cc05334a7b641b981608') in 0.022253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-66.png
+  artifactKey: Guid(c19c064550865734f98927f66b704105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-66.png using Guid(c19c064550865734f98927f66b704105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3628611c57e649d1743bdc7247d8b3b2') in 0.022862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150270 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-63.png
+  artifactKey: Guid(f29835f4b762c374ab77c635b12217a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-63.png using Guid(f29835f4b762c374ab77c635b12217a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5acebde6abf6c89ad92faec558aaf7') in 0.036047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-65.png
+  artifactKey: Guid(d5c7a5bbec79bd44098199679e6f2331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-65.png using Guid(d5c7a5bbec79bd44098199679e6f2331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03b4afde67954e890b8577a9ccd86a5') in 0.029689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-64.png
+  artifactKey: Guid(92f8c22e0b8262643a9a5eed632b3020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-64.png using Guid(92f8c22e0b8262643a9a5eed632b3020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef08146eb90470b0c9d760c2939b9ef1') in 0.034300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-53.png
+  artifactKey: Guid(87fcbfbc7b6abd84ab20165e1d329cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-53.png using Guid(87fcbfbc7b6abd84ab20165e1d329cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991493d24bb30d70c958e3ffc0f29bbf') in 0.033067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-58.png
+  artifactKey: Guid(aa284348539d11a4e8ccae0b5658c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-58.png using Guid(aa284348539d11a4e8ccae0b5658c8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d72bc413038ab7c4eeee90a607ed9a') in 0.024208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-48.png
+  artifactKey: Guid(d73fcb00d39c40946957ab17050bd71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-48.png using Guid(d73fcb00d39c40946957ab17050bd71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76ddec5a5cdfd34173cb8978b548016') in 0.027204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-57.png
+  artifactKey: Guid(047a7e52568f0ac4392d74f2c9e59a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-57.png using Guid(047a7e52568f0ac4392d74f2c9e59a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c66d680b41e74eca726175413d34a') in 0.034221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-52.png
+  artifactKey: Guid(6135e0eec9ac5044685626575c35243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-52.png using Guid(6135e0eec9ac5044685626575c35243b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebff7fa20eb5b337d753be060e403cc8') in 0.028240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-49.png
+  artifactKey: Guid(db48ad67c6c466f4295d58faa1a5cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-49.png using Guid(db48ad67c6c466f4295d58faa1a5cef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37a1b67a4a9e104e9786b65f162b0d7') in 0.028382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-60.png
+  artifactKey: Guid(09b59bd192c4ebe45b10b184c1079972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-60.png using Guid(09b59bd192c4ebe45b10b184c1079972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dedec438a1a213044cf182dd0677687') in 0.026359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-56.png
+  artifactKey: Guid(fd67219e39d479447b5f9efe2b1a497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-56.png using Guid(fd67219e39d479447b5f9efe2b1a497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa1f1f536da11a5cd6fd69b19a871a6') in 0.025724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-59.png
+  artifactKey: Guid(77da74e3f22ece74b9bdedffd60e353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-59.png using Guid(77da74e3f22ece74b9bdedffd60e353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9e59e62a323bbd6902ca49301f9127') in 0.027852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-45.png
+  artifactKey: Guid(a3db8a4ae9e53654d8760c9105a9ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-45.png using Guid(a3db8a4ae9e53654d8760c9105a9ea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6187610dcf81382bc7781166640828') in 0.025747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-46.png
+  artifactKey: Guid(ee446371416df0449ae19091eda369e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-46.png using Guid(ee446371416df0449ae19091eda369e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdd21cef0a068dc69f2f780449f9920') in 0.029655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-33.png
+  artifactKey: Guid(4a7aec85779aebb4c900cb473d14bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-33.png using Guid(4a7aec85779aebb4c900cb473d14bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b575e1c55157e5d119565f74f2da5111') in 0.026530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-34.png
+  artifactKey: Guid(370da4c63aef243439b1f1fefd68a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-34.png using Guid(370da4c63aef243439b1f1fefd68a710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3da2c7afd8f47c27f4c61731a259ef7') in 0.022129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-36.png
+  artifactKey: Guid(10d0afc7f8527d741b73538a7bea894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-36.png using Guid(10d0afc7f8527d741b73538a7bea894a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9953491e713438911fb026ba4fd4eb0') in 0.022589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-39.png
+  artifactKey: Guid(cb1044d9f62b52342b85b93c77c715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-39.png using Guid(cb1044d9f62b52342b85b93c77c715b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6279cf6e4b940797b7e12d242dee62d3') in 0.025504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-43.png
+  artifactKey: Guid(89ece56742ace2f42995c1621e18f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-43.png using Guid(89ece56742ace2f42995c1621e18f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd3a91df6ea785ba5b60d1856614b33') in 0.026462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-44.png
+  artifactKey: Guid(60e70b6ca550c7945849becb0a449208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-44.png using Guid(60e70b6ca550c7945849becb0a449208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc623348584a2f5e59260f11a929429') in 0.021195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-40.png
+  artifactKey: Guid(c361c085d8cd8e7409ece5e6a9f6633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-40.png using Guid(c361c085d8cd8e7409ece5e6a9f6633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9537a3c7547a460743113cfdb2f6880') in 0.020644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-38.png
+  artifactKey: Guid(213f455066ab14647a3743568f6ac9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-38.png using Guid(213f455066ab14647a3743568f6ac9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a740e8ea79c1599ddf428a17f73406') in 0.025072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-47.png
+  artifactKey: Guid(d7544e38425ff1a4396376bc693ab4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-47.png using Guid(d7544e38425ff1a4396376bc693ab4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf84595ae0e2f39de6d73273d29b6f0') in 0.021242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-41.png
+  artifactKey: Guid(b3ee2525ab444e048bf220d89dbe7a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-41.png using Guid(b3ee2525ab444e048bf220d89dbe7a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b1bcb34ad2e983c56b040014836a4f') in 0.022086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-27.png
+  artifactKey: Guid(361d623a36a2b1941bb0382e44369103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-27.png using Guid(361d623a36a2b1941bb0382e44369103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2ba888545ba1695070b2755b67b778') in 0.025708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-30.png
+  artifactKey: Guid(729ee6feebcb7b84bb754384fe63e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-30.png using Guid(729ee6feebcb7b84bb754384fe63e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b15f420356161ba7d1ca3e7b8a901c') in 0.021120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-28.png
+  artifactKey: Guid(ad2ec7891e44b174985315af1727b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-28.png using Guid(ad2ec7891e44b174985315af1727b35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d0da4303ccbfc361bdbce6861103d5') in 0.025087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-18.png
+  artifactKey: Guid(d8b1c37f57be6954ba533310eed86742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-18.png using Guid(d8b1c37f57be6954ba533310eed86742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18bd912bafdf4dcdb5e34822b574644') in 0.024911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-16.png
+  artifactKey: Guid(7df07313407a9ae4ebb6480ce79aa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-16.png using Guid(7df07313407a9ae4ebb6480ce79aa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91804f2ca69627c22b460226d1f2109e') in 0.023341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-15.png
+  artifactKey: Guid(c516088f00483e74287fd7c1783cb6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-15.png using Guid(c516088f00483e74287fd7c1783cb6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3ab33223327ad7af5ea66f40f33375') in 0.025270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-31.png
+  artifactKey: Guid(7ec7f587acc23224392fe56e9c5b8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-31.png using Guid(7ec7f587acc23224392fe56e9c5b8b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e36771d84ac294e5edfaee84ec2005') in 0.028917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-17.png
+  artifactKey: Guid(24dc61f62c48833489d48e389c438233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-17.png using Guid(24dc61f62c48833489d48e389c438233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba4126766b9a4356b022cfac49313ad') in 0.022870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-22.png
+  artifactKey: Guid(29d926944df3ad24088905de41b5c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-22.png using Guid(29d926944df3ad24088905de41b5c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e113a6d10b4ed9c9b321bf9204211c9') in 0.023736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-24.png
+  artifactKey: Guid(136e1b9dfcee2e24ab679bbe3c696e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-24.png using Guid(136e1b9dfcee2e24ab679bbe3c696e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14044e2522e8af8224ac9315afcf672') in 0.026723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-25.png
+  artifactKey: Guid(535b02c3075600a48a0cd276af7dc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-25.png using Guid(535b02c3075600a48a0cd276af7dc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c4fdab4bd3a3067f2ffe770eea679') in 0.028341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-29.png
+  artifactKey: Guid(32c0fe89fc75ce04e943aa261687cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-29.png using Guid(32c0fe89fc75ce04e943aa261687cafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5c2bcb49d32801c8b6f24c6001916') in 0.024711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-35.png
+  artifactKey: Guid(8c4b88c2ee5bdcd40a389fb70c69d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-35.png using Guid(8c4b88c2ee5bdcd40a389fb70c69d14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee342e6fbda4deb47ff31f8172d43ecc') in 0.021833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-12.png
+  artifactKey: Guid(41ba3971293adff47a0522c52e2816a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-12.png using Guid(41ba3971293adff47a0522c52e2816a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491de0b13af1251ba44c50703e9e7a6a') in 0.022066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-11.png
+  artifactKey: Guid(f77c4a76f9ef565498a253b84f175a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-11.png using Guid(f77c4a76f9ef565498a253b84f175a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e54c6ed3459ae3d04af2efffa09cb20') in 0.025930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-2.png
+  artifactKey: Guid(791ca1b9264bd9a489c8e9a1a5329e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-2.png using Guid(791ca1b9264bd9a489c8e9a1a5329e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef223263924e657de2d93c41f2871dc7') in 0.021321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-4.png
+  artifactKey: Guid(6c94c188397ce0242843f829f898c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-4.png using Guid(6c94c188397ce0242843f829f898c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c593247be78ba3bb77e41493352c6623') in 0.021236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-10.png
+  artifactKey: Guid(b9bf89071c33add4999f9dcdf7899f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-10.png using Guid(b9bf89071c33add4999f9dcdf7899f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20846bf7754f20149fb6bbba99bc2fc9') in 0.025991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png
+  artifactKey: Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png using Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c459332e211f552f0007a1d45de23f1e') in 0.032635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-7.png
+  artifactKey: Guid(6b9b50dc5f04d7c42a33f12fb748c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-7.png using Guid(6b9b50dc5f04d7c42a33f12fb748c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8274a508f333dc8a14a0ddd59bc0f410') in 0.025397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-5.png
+  artifactKey: Guid(1d80fe9f387be6343a3631f3957a215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-5.png using Guid(1d80fe9f387be6343a3631f3957a215f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9081acecc200ec3412c488a4693dd4') in 0.023737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-6.png
+  artifactKey: Guid(bc6be34801ae643439496db7d4f5f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-6.png using Guid(bc6be34801ae643439496db7d4f5f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3239fb7709540e191b88b152d5a685dd') in 0.022713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-9.png
+  artifactKey: Guid(1f18c887d9147434fac27f96b63938e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-9.png using Guid(1f18c887d9147434fac27f96b63938e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1f4e61185a296075d285254bc84d3c') in 0.025403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-3.png
+  artifactKey: Guid(c891598bd8a015242bec3ca88f0f2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-3.png using Guid(c891598bd8a015242bec3ca88f0f2b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449c00b6a475600d7146d86cf844b412') in 0.027363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-13.png
+  artifactKey: Guid(bff0d7e9554744647a604d410eccc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-13.png using Guid(bff0d7e9554744647a604d410eccc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bd79aefb6c29504720bc3f669df210') in 0.028658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-8.png
+  artifactKey: Guid(188aa00cc2a698145afc02e5d29965d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-8.png using Guid(188aa00cc2a698145afc02e5d29965d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b80a8b9290542a15fa4623f6dcb43e') in 0.025084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png
+  artifactKey: Guid(cbc3de93d8c073148bfa4e9b375fe7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Top Hit (42x42).png using Guid(cbc3de93d8c073148bfa4e9b375fe7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83777790003fcae417a37a8635d3c3ac') in 0.032392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png
+  artifactKey: Guid(75b1a2f7cb6173c4d826963a35f18512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png using Guid(75b1a2f7cb6173c4d826963a35f18512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e591aa3185216b588f14b45c0229a439') in 0.032728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png
+  artifactKey: Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png using Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472bcfb654444a7dee275184d93a3e2') in 0.030810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-14.png
+  artifactKey: Guid(b0a094d20727e7c428aabb021af3962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-14.png using Guid(b0a094d20727e7c428aabb021af3962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03986e2f82501c034dd28fbb6acbc5') in 0.024631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-21.png
+  artifactKey: Guid(4e6db5e3b006a5c40a4ad25220020598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-21.png using Guid(4e6db5e3b006a5c40a4ad25220020598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865f935a11cd41a6f4b40733031e08d5') in 0.023080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-26.png
+  artifactKey: Guid(eed3499064134d044be95eeb18a84c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-26.png using Guid(eed3499064134d044be95eeb18a84c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3604e298739b286e64f5e97a41bf722') in 0.021979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-55.png
+  artifactKey: Guid(e92797f758b02ff4e89fd4bef1f4e5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-55.png using Guid(e92797f758b02ff4e89fd4bef1f4e5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edaaf24e77cbb555ba872856e762e17') in 0.022125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-51.png
+  artifactKey: Guid(d865e2b8baa27554cb4a8d5fdc88ced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-51.png using Guid(d865e2b8baa27554cb4a8d5fdc88ced6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f39170c50d6b498acc2b39e3700afe') in 0.022614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-61.png
+  artifactKey: Guid(d88b94790ab33644d8b0196053328eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-61.png using Guid(d88b94790ab33644d8b0196053328eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fda06bf0219fcf0493ff84f74af8dab') in 0.021981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-32.png
+  artifactKey: Guid(f0bfe6f104c7d13459a5a0f5508e172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-32.png using Guid(f0bfe6f104c7d13459a5a0f5508e172c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02e30ccca05ec3f39f773323da8ba41') in 0.020942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-50.png
+  artifactKey: Guid(7f6b5c86f08681e449232d79f9b3c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-50.png using Guid(7f6b5c86f08681e449232d79f9b3c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b71ccaec40fc380f64724e317a385a1') in 0.025406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-42.png
+  artifactKey: Guid(44a02ac1a941a4f4aae218d1f84580f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-42.png using Guid(44a02ac1a941a4f4aae218d1f84580f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070d1f38bb73eaae9c691933da8981bb') in 0.020951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-23.png
+  artifactKey: Guid(27151f674b816394484a482e8f655a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-23.png using Guid(27151f674b816394484a482e8f655a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4756e97258a83bde1d01e26e2d928577') in 0.021333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-37.png
+  artifactKey: Guid(d129e7db8286b564089075721d495156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-37.png using Guid(d129e7db8286b564089075721d495156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99846a579fa89f9f7202b3998fc7b657') in 0.026267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png
+  artifactKey: Guid(bb8f35504d0d42343b3cdb04faaa9d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Left Hit (42x42).png using Guid(bb8f35504d0d42343b3cdb04faaa9d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a133b7b388499daa7ebc3733cc95bfc9') in 0.030579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png
+  artifactKey: Guid(cf4eb9361d321834693bc5dcefbb5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/HitTop (22x22).png using Guid(cf4eb9361d321834693bc5dcefbb5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7273778f62e104bca1bcc9afa30039') in 0.026171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-1.png
+  artifactKey: Guid(accaaefc8abf9664ab078fd76a19537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-1.png using Guid(accaaefc8abf9664ab078fd76a19537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b683936abe30a7206087518ad0aaad75') in 0.022136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png
+  artifactKey: Guid(a93caedcaa299f14e978454757f38077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Blocks/HitSide (22x22).png using Guid(a93caedcaa299f14e978454757f38077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7f6e2edc442c352c7e769da11bf58a') in 0.030583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-19.png
+  artifactKey: Guid(3b51d8e60e7eeac43bfe61542cfba423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-19.png using Guid(3b51d8e60e7eeac43bfe61542cfba423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9903bea0ab46428e5f83b708762152') in 0.021879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-20.png
+  artifactKey: Guid(27b1548535f73d740b8296faf723ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-20.png using Guid(27b1548535f73d740b8296faf723ee0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb08a39f076ba79adab53140d1ad9d2') in 0.024303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png
+  artifactKey: Guid(337dc14b4c251b345bc534a6e8df01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Right Hit (42x42).png using Guid(337dc14b4c251b345bc534a6e8df01db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848f0430cf9d7e5aa9bc4f282c90c6d3') in 0.029268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-0.png
+  artifactKey: Guid(adf47ee50d5437841843bb1a683c26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-0.png using Guid(adf47ee50d5437841843bb1a683c26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd6c17a7b320b05c430ba67e563f129') in 0.025571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-62.png
+  artifactKey: Guid(aa52d2b49a3eccc4a96285395f631e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-62.png using Guid(aa52d2b49a3eccc4a96285395f631e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62e7845e3e0eb543415df33dc1e9f88') in 0.021680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-54.png
+  artifactKey: Guid(3d13bb16679f95541a18e98dc63108d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cave Platformer Tileset/Individual PNG files/Tileset/trees-trunk-white/trees-trunk-white-54.png using Guid(3d13bb16679f95541a18e98dc63108d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafdf215f0e9c3fe46ba01245c71144d') in 0.022625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.093845 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png
+  artifactKey: Guid(90f53065140625242aaa6c9e55fcf2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Rock Head/Bottom Hit (42x42).png using Guid(90f53065140625242aaa6c9e55fcf2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d72afe92969f78c574b890a85b2a62') in 0.030939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png
+  artifactKey: Guid(d2223d6a7816d474b83187392732daf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Spike Head/Bottom Hit (54x52).png using Guid(d2223d6a7816d474b83187392732daf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd529d6194a4ba5e74ac21bb960f664d8') in 0.047064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png
+  artifactKey: Guid(573c22279c1eb734696548dfba41d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Traps/Fire/Hit (16x32).png using Guid(573c22279c1eb734696548dfba41d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceddfc03104cf7d2a13b2396af3266c8') in 0.051374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.156294 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png
+  artifactKey: Guid(3b332af1e6c55e94f8e5eb08fb4ab06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Wall Jump (32x32).png using Guid(3b332af1e6c55e94f8e5eb08fb4ab06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99f061b3606192122111c602d512ebe') in 0.031711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png
+  artifactKey: Guid(603abb83490921841976d0f1b2045f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Wall Jump (32x32).png using Guid(603abb83490921841976d0f1b2045f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd221780096a1c9246d59c8031e0bdc17') in 0.054530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png
+  artifactKey: Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196cf9ff89049552b6ad5ab2a35a02f2') in 0.053456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
+  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9fb9b45d3cad4b5a9f0359696e4d13') in 0.052561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.578437 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png
+  artifactKey: Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Double Jump (32x32).png using Guid(241f742f0911c3a428eea6612ae23b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e2d60ed7599045834a3bc8b561d092') in 0.036787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png
+  artifactKey: Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Pink Man/Double Jump (32x32).png using Guid(5fd9f3ec1e3e0bc4d8e308e10012a36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c066fd90592e72262f3e8d1b2de4f3f8') in 0.053467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png
+  artifactKey: Guid(4099f676255555240b5240f897805dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Ninja Frog/Double Jump (32x32).png using Guid(4099f676255555240b5240f897805dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d4eb053e9598c4aef754720f76922d') in 0.055737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png
+  artifactKey: Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Double Jump (32x32).png using Guid(62a315a8619ac644f899c29e008115c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec217540607ccf7ceb762d5a9ae0078f') in 0.052381 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1060ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (309ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 2.848900 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.512700 ms  DeleteObjects: 0.106800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
