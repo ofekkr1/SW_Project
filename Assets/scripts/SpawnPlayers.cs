@@ -14,7 +14,7 @@ public class SpawnPlayers : MonoBehaviour
     public float minY;
     public float maxX;
     public float maxY;
-    public Text username;
+    //public Text username;
     private void Start()
     {
 
@@ -32,10 +32,8 @@ public class SpawnPlayers : MonoBehaviour
             }
         }
         GameObject Player=PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
-        GameObject user=PhotonNetwork.Instantiate(username.name, new Vector2(Player.transform.position.x+30, Player.transform.position.y -(float)0.2), Quaternion.identity);
-        user.transform.SetParent(GameObject.Find("Canvas").GetComponent<Transform>(),false);
+      
         
-        print(GameObject.FindGameObjectsWithTag("Player").Length);
 
 
     }

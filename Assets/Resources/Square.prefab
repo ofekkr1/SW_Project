@@ -168,7 +168,7 @@ MonoBehaviour:
   MaxRight: 10
   speed: 10
   ground: {fileID: 5211791448182682077, guid: 0837bdc554ae0894980861134206548d, type: 3}
-  Laser: {fileID: 2801095816724359505, guid: d0f9fb5a9453ec64398a63127655e93d, type: 3}
+  Laser: {fileID: 5427710805090773288, guid: f6bee5e6c47fcda45b47e61b734492e1, type: 3}
 --- !u!50 &-5322808224968330986
 Rigidbody2D:
   serializedVersion: 4

@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - SceneMove
     - Show_Room_List
     - SpawnPlayers
+    - Timer_To_Join
     - UsernameBehavior
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
@@ -40,8 +41,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -170,6 +174,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5672}
     - Class: 114
       Script: {instanceID: 5948}
+    - Class: 114
+      Script: {instanceID: 39800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -843,7 +849,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: 017ba9af94003a0a308dc152b856b8de
+      Hash: f967836ce51e6a92fdc81d7b3d5ed05e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -1987,6 +1993,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: adc105e91f14d7e66bd15d7125deb056
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer_To_Join
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

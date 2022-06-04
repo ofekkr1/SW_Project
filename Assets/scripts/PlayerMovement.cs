@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public Text username;
     PhotonView view;
     public Canvas canvas1;
-
+    int i = 0;
     private void Awake()
     {
         //Grab references for rigidbody and animator from object
@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         GameObject[] Platforms = GameObject.FindGameObjectsWithTag("Ground");
-        print(username.text);
 
         view = GetComponent<PhotonView>();
 
@@ -40,11 +39,14 @@ public class PlayerMovement : MonoBehaviour
         if (view.IsMine)
         {
 
-            canvas1.transform.position = this.transform.position;
             if (this.GetComponent<Rigidbody2D>().position.y < -50)
             {
-
-                this.gameObject.SetActive(false);
+                if (GameObject.FindGameObjectsWithTag("Player").Length>i+1)
+                {
+                    body = GameObject.FindGameObjectsWithTag("Player")[++i].GetComponent<Rigidbody2D>();
+                }
+                    this.gameObject.SetActive(false);
+               
                 
             }
             cam.transform.position = body.transform.position; 

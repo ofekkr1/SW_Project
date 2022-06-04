@@ -8,6 +8,9 @@ public class Laser_Behavior : MonoBehaviour
     private GameObject[] platforms;
     public GameObject Ground;
     public GameObject Player;
+
+    private bool ConChecked = true;
+
     void Start()
     {
         collision = Ground.GetComponent<BoxCollider2D>();
@@ -23,15 +26,18 @@ public class Laser_Behavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((this.GetComponent<Rigidbody2D>().velocity.y!=3 && this.GetComponent<Rigidbody2D>().velocity.y!=0) || Player.transform.position.y>=15)
-        {
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, 3);
-        }
-        else
-        {
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)0.01);
+            //if(ConChecked || GameObject.FindGameObjectsWithTag("Platform")[0].GetComponent<Rigidbody2D>().velocity.y != 0)
+            //{
+            //this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, 3);
+            //ConChecked = false;
+            //}
 
-        }
+       
+            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)1.5);
+
+        
+
+
 
 
     }

@@ -158,7 +158,7 @@ MonoBehaviour:
   speed: 10
   ground: {fileID: 5211791448182682077, guid: 0837bdc554ae0894980861134206548d, type: 3}
   Platforms: []
-  username: {fileID: 1435878732898106702, guid: 146e5b2e428b49442b3be54be8794581, type: 3}
+  username: {fileID: 4758064797045816247, guid: e04bdebc3d80b214882cd185b135e54b, type: 3}
   canvas1: {fileID: 7352618100171899906, guid: f56b14fcb0b0d8d489052bcee9679d1f, type: 3}
 --- !u!95 &5810674311172830618
 Animator:
