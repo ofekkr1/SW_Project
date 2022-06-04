@@ -31,9 +31,15 @@ public class SpawnPlayers : MonoBehaviour
                 PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * i), Quaternion.identity);
             }
         }
-        GameObject Player=PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
-      
+        if (GameObject.FindGameObjectsWithTag("Player").Length>1)
+        {
+            randomPosition = new Vector2(2, -6);
+
+        }
         
+        GameObject Player = PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
+
+
 
 
     }
