@@ -14,21 +14,24 @@ public class SpawnPlayers : MonoBehaviour
     public float minY;
     public float maxX;
     public float maxY;
+    public static int height = 1;
     public GameObject Countdown;
+    Vector2 randomPosition = new Vector2(1, -6);
+
     private void Start()
     {
 
 
 
 
-        Vector2 randomPosition = new Vector2(1, -6);
+       
         if (PhotonNetwork.IsMasterClient)
         {
             
-            for (int i = 1; i < 30; i++)
+            for (; height < 30; height++)
             {
                 int Pos_x = Random.Range(-10, 10);
-                PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * i), Quaternion.identity);
+                PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * height), Quaternion.identity);
             }
         }
         if (GameObject.FindGameObjectsWithTag("Player").Length==1)
@@ -43,5 +46,48 @@ public class SpawnPlayers : MonoBehaviour
 
 
 
+    }
+
+
+    void Update()
+    {
+        GameObject[] Players = GameObject.FindGameObjectsWithTag("Player");
+        GameObject firstToCome = HeighestPlayer(Players);
+        if(GameObject.FindGameObjectsWithTag("Platform").Length==4)
+        {
+            SpawnPlatforms();
+        }
+    }
+
+    private void SpawnPlatforms()
+    {
+        for (; height < height+30; height++)
+        {
+            int Pos_x = Random.Range(-10, 10);
+            PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * height), Quaternion.identity);
+        }
+    }
+
+    private GameObject HeighestPlayer(GameObject[] Players)
+    {
+
+        if (Players.Length > 0)
+        {
+            foreach (GameObject player1 in Players)
+            {
+                bool highest = true;
+                foreach (GameObject player2 in Players)
+                {
+                    if (player1.transform.position.y < player2.transform.position.y)
+                    {
+                        highest = false;
+                        break;
+                    }
+                }
+                if (highest) return player1;
+            }
+            return Players[Players.Length - 1];
+        }
+        return null;
     }
 }

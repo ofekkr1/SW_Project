@@ -40,8 +40,7 @@ public class Timer_To_Join : MonoBehaviour
         if (!startTimer) return;
 
         timerIncrementValue = PhotonNetwork.Time - startTime;
-        text.GetComponentInChildren<Text>().text ="Time until the game starts: " + (timer-timerIncrementValue).ToString();
-        print(timerIncrementValue);
+        text.GetComponentInChildren<Text>().text ="Time until the game starts: " + ((int)(timer-timerIncrementValue)).ToString();
 
         foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
         {

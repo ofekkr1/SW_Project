@@ -32,8 +32,9 @@ public class Platform_Behavior : MonoBehaviour
        
             if (this.GetComponent<Rigidbody2D>().position.y < -5)
             {
-                
-                this.gameObject.SetActive(false);
+
+                this.GetComponent<Rigidbody2D>().position = new Vector2(this.GetComponent<Rigidbody2D>().position.x, this.GetComponent<Rigidbody2D>().position.y+3.7f*SpawnPlayers.height);
+                SpawnPlayers.height++;
             }
             else
             {
