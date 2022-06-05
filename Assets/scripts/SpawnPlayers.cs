@@ -7,14 +7,20 @@ using UnityEngine.UI;
 
 public class SpawnPlayers : MonoBehaviour
 {
-    public GameObject playerprefab;
+    public GameObject Player_1;
+    public GameObject Player_2;
+    public GameObject Player_3;
+    public GameObject Player_4;
     public GameObject Terrarian;
     public GameObject Camera;
+    public GameObject FirePoint;
+    public GameObject Bomb;
     public float minX;
     public float minY;
     public float maxX;
     public float maxY;
     public static int height = 1;
+
     public GameObject Countdown;
     Vector2 randomPosition = new Vector2(1, -6);
 
@@ -23,8 +29,9 @@ public class SpawnPlayers : MonoBehaviour
 
 
 
+        GameObject Player = null;
 
-       
+
         if (PhotonNetwork.IsMasterClient)
         {
             
@@ -34,15 +41,39 @@ public class SpawnPlayers : MonoBehaviour
                 PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * height), Quaternion.identity);
             }
         }
-        if (GameObject.FindGameObjectsWithTag("Player").Length==1)
+
+        print(PhotonNetwork.CurrentRoom.PlayerCount);
+        if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
-            randomPosition = new Vector2(3, -9);
+            randomPosition = new Vector2(3, -3);
             PhotonNetwork.Instantiate(Countdown.name, new Vector2(3, 3), Quaternion.identity);
-            
+            PhotonNetwork.Instantiate(Player_2.name, new Vector2(3, 3), Quaternion.identity);
+
+
         }
-        
-        GameObject Player = PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
-        
+
+        else if (PhotonNetwork.CurrentRoom.PlayerCount == 3)
+        {
+            randomPosition = new Vector2(3, -3);
+            Player = PhotonNetwork.Instantiate(Player_3.name, randomPosition, Quaternion.identity);
+
+
+        }
+
+       else if (PhotonNetwork.CurrentRoom.PlayerCount == 4)
+        {
+            randomPosition = new Vector2(5, -3);
+            Player=PhotonNetwork.Instantiate(Player_4.name, randomPosition, Quaternion.identity);
+
+
+        }
+
+        else  Player = PhotonNetwork.Instantiate(Player_1.name, randomPosition, Quaternion.identity);
+        GameObject fire= PhotonNetwork.Instantiate(FirePoint.name, randomPosition, Quaternion.identity);
+        fire.transform.SetParent(Player.transform);
+        GameObject bomb=PhotonNetwork.Instantiate(Bomb.name, randomPosition, Quaternion.identity);
+        bomb.transform.SetParent(Player.transform);
+        bomb.SetActive(false);
 
 
 

@@ -74,7 +74,6 @@ public class Platform_Behavior : MonoBehaviour
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Platform")
         {
             Physics2D.IgnoreCollision(collision.collider, collider2D,true);
-            print("something");
         }
        
     }

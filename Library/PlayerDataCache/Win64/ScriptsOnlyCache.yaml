@@ -12,7 +12,9 @@ ScriptsOnlyBuild:
     - Move_To_Tutorial
     - Platform_Behavior
     - PlayMove
+    - PlayerAttack
     - PlayerMovement
+    - Projectile
     - SceneLoader
     - SceneMove
     - Show_Room_List
@@ -55,8 +57,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -98,7 +102,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3554}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -127,6 +131,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -165,6 +171,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3936}
     - Class: 114
+      Script: {instanceID: 4164}
+    - Class: 114
       Script: {instanceID: 4282}
     - Class: 114
       Script: {instanceID: 4516}
@@ -173,9 +181,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 4834}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5678}
+    - Class: 114
+      Script: {instanceID: 5954}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -277,11 +287,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3554}
     - Class: 114
-      Script: {instanceID: 4896}
+      Script: {instanceID: 4898}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 6224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,15 +342,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3680}
     - Class: 114
-      Script: {instanceID: 4896}
+      Script: {instanceID: 4898}
     - Class: 114
-      Script: {instanceID: 5616}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 5696}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 6224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -379,6 +389,8 @@ ScriptsOnlyBuild:
     - Class: 50
       Script: {instanceID: 0}
     - Class: 54
+      Script: {instanceID: 0}
+    - Class: 58
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
@@ -439,6 +451,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3680}
     - Class: 114
+      Script: {instanceID: 4164}
+    - Class: 114
       Script: {instanceID: 4282}
     - Class: 114
       Script: {instanceID: 4336}
@@ -451,21 +465,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 4896}
+      Script: {instanceID: 4834}
     - Class: 114
-      Script: {instanceID: 5028}
+      Script: {instanceID: 4898}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5864}
+      Script: {instanceID: 5678}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5866}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6314}
+      Script: {instanceID: 6224}
+    - Class: 114
+      Script: {instanceID: 6316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -849,7 +865,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: a02df35fb0dbfca013c296973c3ba6f3
+      Hash: 5bc38f5a5763128b2aaafc878b22a811
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -1531,6 +1547,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Asteroids
     className: LobbyMainPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 5bb6d0558b9533f7e001a5150c89d603
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerAttack
   - hash:
       serializedVersion: 2
       Hash: 74c875e0f15c48e0a55f06093aa93e15

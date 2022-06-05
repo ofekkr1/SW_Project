@@ -43,8 +43,9 @@ public class Projectile : MonoBehaviour
     {
         direction = _direction;
         gameObject.SetActive(true);
+        print("finished");
         hit = false;
-        //boxCollider.enabled = true;
+        circleCollider = GetComponent<CircleCollider2D>();
         circleCollider.enabled = true;
         Rigidbody2D bombRigidbody = GetComponent<Rigidbody2D>();
         float localScaleX = transform.localScale.x;
@@ -58,6 +59,7 @@ public class Projectile : MonoBehaviour
             bombRigidbody.AddForce((-transform.right + Vector3.up) * speed, ForceMode2D.Impulse);
             transform.localScale = new Vector3(-localScaleX, transform.localScale.y, transform.localScale.z);
         }
+        
     }
 
     private void Explode()
@@ -79,6 +81,6 @@ public class Projectile : MonoBehaviour
 
     private void Deactivate()
     {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 }
