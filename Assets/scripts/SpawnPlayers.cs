@@ -14,7 +14,7 @@ public class SpawnPlayers : MonoBehaviour
     public float minY;
     public float maxX;
     public float maxY;
-    //public Text username;
+    public GameObject Countdown;
     private void Start()
     {
 
@@ -31,14 +31,15 @@ public class SpawnPlayers : MonoBehaviour
                 PhotonNetwork.Instantiate(Terrarian.name, new Vector2(Pos_x, randomPosition.y + 4 * i), Quaternion.identity);
             }
         }
-        if (GameObject.FindGameObjectsWithTag("Player").Length>1)
+        if (GameObject.FindGameObjectsWithTag("Player").Length==1)
         {
-            randomPosition = new Vector2(2, -6);
-
+            randomPosition = new Vector2(3, -9);
+            PhotonNetwork.Instantiate(Countdown.name, new Vector2(3, 3), Quaternion.identity);
+            
         }
         
         GameObject Player = PhotonNetwork.Instantiate(playerprefab.name, randomPosition, Quaternion.identity);
-
+        
 
 
 

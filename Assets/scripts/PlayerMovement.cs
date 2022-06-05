@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public Text username;
     PhotonView view;
     public Canvas canvas1;
+    private float horizontalInput;
     int i = 0;
     private void Awake()
     {
@@ -28,49 +29,49 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         GameObject[] Platforms = GameObject.FindGameObjectsWithTag("Ground");
-
         view = GetComponent<PhotonView>();
 
     }
 
     private void Update()
     {
-
-        if (view.IsMine)
+        if (Timer_To_Join.GameStarted)
         {
-
-            if (this.GetComponent<Rigidbody2D>().position.y < -50)
+            if (view.IsMine)
             {
-                if (GameObject.FindGameObjectsWithTag("Player").Length>i+1)
+
+                if (this.GetComponent<Rigidbody2D>().position.y < -50)
                 {
-                    body = GameObject.FindGameObjectsWithTag("Player")[++i].GetComponent<Rigidbody2D>();
-                }
+                    if (GameObject.FindGameObjectsWithTag("Player").Length > i + 1)
+                    {
+                        body = GameObject.FindGameObjectsWithTag("Player")[++i].GetComponent<Rigidbody2D>();
+                    }
                     this.gameObject.SetActive(false);
-               
-                
+
+
+                }
+                cam.transform.position = body.transform.position;
+                horizontalInput = Input.GetAxis("Horizontal");
+                body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
+
+                //Flip player when moving left and right
+                if (horizontalInput < 0.01f)
+                    transform.localScale = Vector3.one;
+                else if (horizontalInput > -0.01f)
+                    transform.localScale = new Vector3(-1, 1, 1);
+
+                if (Input.GetKey(KeyCode.Space) && isGrounded())
+                {
+                    Jump();
+                }
+
+                //Set animator parameters
+                anim.SetBool("walk", horizontalInput != 0);
+                anim.SetBool("grounded", grounded);
             }
-            cam.transform.position = body.transform.position; 
-            float horizontalInput = Input.GetAxis("Horizontal");
-            body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
-            //Flip player when moving left and right
-            if (horizontalInput < 0.01f)
-                transform.localScale = Vector3.one;
-            else if (horizontalInput > -0.01f)
-                transform.localScale = new Vector3(-1, 1, 1);
-
-            if (Input.GetKey(KeyCode.Space) && isGrounded())
-            {
-                Jump();
-            }
-
-            //Set animator parameters
-            anim.SetBool("walk", horizontalInput != 0);
-            anim.SetBool("grounded", grounded);
         }
-
     }
-
     private void Jump()
     {
         body.velocity = new Vector2(body.velocity.x, speed+5);
@@ -92,5 +93,17 @@ public class PlayerMovement : MonoBehaviour
     {
         RaycastHit2D raycaseHit1 = Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycaseHit1.collider != null;
+    }
+    public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Bomb")
+        {
+            anim.SetTrigger("hit");
+        }
     }
 }

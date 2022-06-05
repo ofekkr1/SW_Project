@@ -9,7 +9,6 @@ public class Laser_Behavior : MonoBehaviour
     public GameObject Ground;
     public GameObject Player;
 
-    private bool ConChecked = true;
 
     void Start()
     {
@@ -33,7 +32,7 @@ public class Laser_Behavior : MonoBehaviour
             //}
 
        
-            this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)1.5);
+           if(Timer_To_Join.GameStarted) this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)1.5);
 
         
 
