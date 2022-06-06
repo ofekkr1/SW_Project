@@ -28,14 +28,12 @@ public class Server_Connection : MonoBehaviourPunCallbacks
         if (usernameInput.text.Length >= 1)
         {
             PhotonNetwork.NickName = usernameInput.text;
-            buttonText.text = "Connecting...";
-            PhotonNetwork.ConnectUsingSettings();
+            //buttonText.text = "Connecting...";
+            //PhotonNetwork.ConnectUsingSettings();
+            SceneManager.LoadScene("Loading");
         }
     }
 
-    public override void OnConnectedToMaster()
-    {
-        SceneManager.LoadScene("Loading");
-    }
+    
 
 }

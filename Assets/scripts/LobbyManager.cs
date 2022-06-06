@@ -20,9 +20,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public float timeBetweenUpdates = 1.5f;
     float nextUpdateTime;
 
-    //public List<PlayerItem> playerItemList = new List<PlayerItem>();
-    //public PlayerItem playerItemPrefab;
-    //public Transform playerItemParent;
+    public List<PlayerItem> playerItemList = new List<PlayerItem>();
+    public PlayerItem playerItemPrefab;
+    public Transform playerItemParent;
 
 
 
@@ -46,7 +46,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         lobbyPanel.SetActive(false);
         roomPanel.SetActive(true);
         roomName.text = "Room Name: " + PhotonNetwork.CurrentRoom.Name;
-        //UpdatePlayerList();
+        UpdatePlayerList();
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomlist)
@@ -95,36 +95,36 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinLobby();
     }
 
-    //void UpdatePlayerList()
-    //{
-    //    foreach (PlayerItem item in playerItemList)
-    //    {
-    //        Destroy(item.gameObject);
-    //    }
-    //    playerItemList.Clear();
-    //    if (PhotonNetwork.CurrentRoom == null)
-    //        return;
+    void UpdatePlayerList()
+    {
+        foreach (PlayerItem item in playerItemList)
+        {
+            Destroy(item.gameObject);
+        }
+        playerItemList.Clear();
+        if (PhotonNetwork.CurrentRoom == null)
+            return;
 
-    //    foreach (KeyValuePair<int, Player> player in PhotonNetwork.CurrentRoom.Players)
-    //    {
-    //        PlayerItem newplayer = Instantiate(playerItemPrefab, playerItemParent);
-    //        newplayer.SetPlayerInfo(player.Value);
+        foreach (KeyValuePair<int, Player> player in PhotonNetwork.CurrentRoom.Players)
+        {
+            PlayerItem newplayer = Instantiate(playerItemPrefab, playerItemParent);
+            newplayer.SetPlayerInfo(player.Value);
 
-    //        if (player.Value == PhotonNetwork.LocalPlayer)
-    //            newplayer.ApplyLocalChanges();
+            if (player.Value == PhotonNetwork.LocalPlayer)
+                newplayer.ApplyLocalChanges();
 
-    //        playerItemList.Add(newplayer);
-    //    }
+            playerItemList.Add(newplayer);
+        }
 
-    //}
+    }
 
-    //public override void OnPlayerEnteredRoom(Player newPlayer)
-    //{
-    //    UpdatePlayerList();
-    //}
+    public override void OnPlayerEnteredRoom(Player newPlayer)
+    {
+        UpdatePlayerList();
+    }
 
-    //public override void OnPlayerLeftRoom(Player otherPlayer)
-    //{
-    //    UpdatePlayerList();
-    //}
+    public override void OnPlayerLeftRoom(Player otherPlayer)
+    {
+        UpdatePlayerList();
+    }
 }

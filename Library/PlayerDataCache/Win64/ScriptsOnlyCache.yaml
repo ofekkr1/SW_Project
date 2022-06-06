@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - Platform_Behavior
     - PlayMove
     - PlayerAttack
+    - PlayerItem
     - PlayerMovement
     - Projectile
     - RoomItem
@@ -73,6 +74,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
@@ -276,6 +278,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1470}
     - Class: 114
+      Script: {instanceID: 1786}
+    - Class: 114
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3276}
@@ -297,6 +301,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 66552}
     - Class: 114
       Script: {instanceID: 69916}
+    - Class: 114
+      Script: {instanceID: 119418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -344,8 +350,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3022}
     - Class: 114
       Script: {instanceID: 3276}
-    - Class: 114
-      Script: {instanceID: 3338}
     - Class: 114
       Script: {instanceID: 3554}
     - Class: 114
@@ -546,6 +550,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6316}
     - Class: 114
       Script: {instanceID: 69916}
+    - Class: 114
+      Script: {instanceID: 119418}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2144,7 +2150,7 @@ ScriptsOnlyBuild:
     className: UserIdUiForm
   - hash:
       serializedVersion: 2
-      Hash: ef8956cd6242bcdd139e60acd4a2922a
+      Hash: 6e7f0d54f98bbed8fcb2bc13c90e7a1f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LobbyManager
@@ -2160,6 +2166,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RoomItem
+  - hash:
+      serializedVersion: 2
+      Hash: 534cbd5c3b1c5a34944063465ee6fbc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerItem
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
