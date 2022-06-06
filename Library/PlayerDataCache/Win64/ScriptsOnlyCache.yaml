@@ -9,14 +9,17 @@ ScriptsOnlyBuild:
     - Ground_Behavior
     - IgnoreCollide
     - Laser_Behavior
+    - LobbyManager
     - Move_To_Tutorial
     - Platform_Behavior
     - PlayMove
     - PlayerAttack
     - PlayerMovement
     - Projectile
+    - RoomItem
     - SceneLoader
     - SceneMove
+    - Server_Connection
     - Show_Room_List
     - SpawnPlayers
     - Timer_To_Join
@@ -72,9 +75,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/How_To_Play.unity:
     - Class: 1
@@ -130,8 +137,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
-    - Class: 58
-      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 74
@@ -168,8 +173,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3556}
     - Class: 114
       Script: {instanceID: 3936}
-    - Class: 114
-      Script: {instanceID: 4164}
     - Class: 114
       Script: {instanceID: 4282}
     - Class: 114
@@ -233,6 +236,67 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3276}
     - Class: 114
       Script: {instanceID: 3554}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Lobby.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
+      Script: {instanceID: 1466}
+    - Class: 114
+      Script: {instanceID: 1470}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3276}
+    - Class: 114
+      Script: {instanceID: 3338}
+    - Class: 114
+      Script: {instanceID: 3554}
+    - Class: 114
+      Script: {instanceID: 3560}
+    - Class: 114
+      Script: {instanceID: 3680}
+    - Class: 114
+      Script: {instanceID: 4122}
+    - Class: 114
+      Script: {instanceID: 4860}
+    - Class: 114
+      Script: {instanceID: 5100}
+    - Class: 114
+      Script: {instanceID: 66552}
+    - Class: 114
+      Script: {instanceID: 69916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -480,6 +544,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6224}
     - Class: 114
       Script: {instanceID: 6316}
+    - Class: 114
+      Script: {instanceID: 69916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -511,6 +577,57 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/Username_Connect.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
+      Script: {instanceID: 1466}
+    - Class: 114
+      Script: {instanceID: 1470}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3276}
+    - Class: 114
+      Script: {instanceID: 3338}
+    - Class: 114
+      Script: {instanceID: 3554}
+    - Class: 114
+      Script: {instanceID: 3680}
+    - Class: 114
+      Script: {instanceID: 68450}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -863,7 +980,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: 5bc38f5a5763128b2aaafc878b22a811
+      Hash: 8953c40b108fa1b22d9ce628c6884433
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -1547,7 +1664,7 @@ ScriptsOnlyBuild:
     className: LobbyMainPanel
   - hash:
       serializedVersion: 2
-      Hash: 5bb6d0558b9533f7e001a5150c89d603
+      Hash: 3dbe632ed6ac00f0c855a890061639dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerAttack
@@ -2025,6 +2142,24 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: ef8956cd6242bcdd139e60acd4a2922a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LobbyManager
+  - hash:
+      serializedVersion: 2
+      Hash: fe1e24714ca304832327bae17689acf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Server_Connection
+  - hash:
+      serializedVersion: 2
+      Hash: c4a0d04dfcd3f060f8d88b8f80a01bb5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomItem
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
@@ -2033,4 +2168,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Loading.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/How_To_Play.unity
+  - Assets/Scenes/Username_Connect.unity
+  - Assets/Scenes/Lobby.unity
   playerPath: C:/Users/ofekkr/Desktop/SW_Project/SW_Project/build/SW_Project.exe

@@ -14,13 +14,14 @@ public class SpawnPlayers : MonoBehaviour
     public GameObject Terrarian;
     public GameObject Camera;
     //public GameObject FirePoint;
-    public GameObject Bomb;
+    public GameObject bomb;
+    public static GameObject[] Bombs=new GameObject[4];
     public float minX;
     public float minY;
     public float maxX;
     public float maxY;
     public static int height = 1;
-
+    private int currentBomb;
     public GameObject Countdown;
     Vector2 randomPosition = new Vector2(1, -6);
 
@@ -54,7 +55,7 @@ public class SpawnPlayers : MonoBehaviour
 
         else if (PhotonNetwork.CurrentRoom.PlayerCount == 3)
         {
-            randomPosition = new Vector2(3, -3);
+            randomPosition = new Vector2(4, -6);
             Player = PhotonNetwork.Instantiate(Player_3.name, randomPosition, Quaternion.identity);
 
 
@@ -62,7 +63,7 @@ public class SpawnPlayers : MonoBehaviour
 
        else if (PhotonNetwork.CurrentRoom.PlayerCount == 4)
         {
-            randomPosition = new Vector2(5, -3);
+            randomPosition = new Vector2(5, -6);
             Player=PhotonNetwork.Instantiate(Player_4.name, randomPosition, Quaternion.identity);
 
 
@@ -71,9 +72,9 @@ public class SpawnPlayers : MonoBehaviour
         else  Player = PhotonNetwork.Instantiate(Player_1.name, randomPosition, Quaternion.identity);
         //GameObject fire= PhotonNetwork.Instantiate(FirePoint.name, randomPosition, Quaternion.identity);
         //fire.transform.SetParent(Player.transform);
-        //GameObject bomb=PhotonNetwork.Instantiate(Bomb.name, randomPosition, Quaternion.identity);
+        Bombs[currentBomb] =PhotonNetwork.Instantiate(bomb.name, randomPosition, Quaternion.identity);
         //bomb.transform.SetParent(Player.transform);
-        //bomb.SetActive(false);
+        Bombs[currentBomb].SetActive(false);
 
 
 

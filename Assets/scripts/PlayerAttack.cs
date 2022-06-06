@@ -6,11 +6,10 @@ public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject bomb;
     private Animator anim;
     private PlayerMovement playerMovement;
     private float coolDownTimer = Mathf.Infinity;
-
+    
 
     private void Awake()
     {
@@ -20,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        bool isBombActive = bomb.GetComponent<Projectile>().isActiveAndEnabled;
+        bool isBombActive = SpawnPlayers.Bombs[0].GetComponent<Projectile>().isActiveAndEnabled;
         if (Input.GetKey(KeyCode.C) && !isBombActive)
         {
             Attack();
@@ -35,8 +34,8 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger("attack");
         //coolDownTimer = 0;
 
-        bomb.transform.position = GetComponentInChildren<Transform>().position;
-        bomb.GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+        SpawnPlayers.Bombs[0].transform.position = GetComponentInChildren<Transform>().position;
+        SpawnPlayers.Bombs[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
         //print("did it");
     }
 }

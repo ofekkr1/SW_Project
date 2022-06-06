@@ -25,14 +25,10 @@ public class Laser_Behavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-            //if(ConChecked || GameObject.FindGameObjectsWithTag("Platform")[0].GetComponent<Rigidbody2D>().velocity.y != 0)
-            //{
-            //this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, 3);
-            //ConChecked = false;
-            //}
+            
 
        
-           if(Timer_To_Join.GameStarted) this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)1.5);
+           if(Timer_To_Join.GameStarted) this.GetComponent<Rigidbody2D>().velocity = new Vector2(this.GetComponent<Rigidbody2D>().velocity.x, (float)0.4);
 
         
 

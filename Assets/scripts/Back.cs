@@ -10,8 +10,13 @@ public class Back : MonoBehaviour
     {
         if (Input.GetKey("escape"))
         {
-            if (PhotonNetwork.IsConnected) PhotonNetwork.Disconnect();
+            if (PhotonNetwork.IsConnected)
+            {
+               
+                PhotonNetwork.Disconnect();
+            }
             SceneManager.LoadScene(sceneName: "SampleScene");
+            PhotonNetwork.LeaveRoom();
         }
     }
 }

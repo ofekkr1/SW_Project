@@ -292,4 +292,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 0.5
   firePoint: {fileID: 8094170747312248770, guid: f0099f037537e0245b05677b3277b4b8, type: 3}
-  bomb: {fileID: 2869507548539752678, guid: cfbaf3f0595f04e43b5ed1e78f8a95bd, type: 3}
