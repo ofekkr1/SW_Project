@@ -13,7 +13,7 @@ public class SpawnPlayers : MonoBehaviour
     public GameObject Player_4;
     public GameObject Terrarian;
     public GameObject Camera;
-    public GameObject FirePoint;
+    //public GameObject FirePoint;
     public GameObject Bomb;
     public float minX;
     public float minY;
@@ -45,9 +45,9 @@ public class SpawnPlayers : MonoBehaviour
         print(PhotonNetwork.CurrentRoom.PlayerCount);
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
-            randomPosition = new Vector2(3, -3);
+            randomPosition = new Vector2(3, -6);
             PhotonNetwork.Instantiate(Countdown.name, new Vector2(3, 3), Quaternion.identity);
-            PhotonNetwork.Instantiate(Player_2.name, new Vector2(3, 3), Quaternion.identity);
+            Player=PhotonNetwork.Instantiate(Player_2.name, randomPosition, Quaternion.identity);
 
 
         }
@@ -69,11 +69,11 @@ public class SpawnPlayers : MonoBehaviour
         }
 
         else  Player = PhotonNetwork.Instantiate(Player_1.name, randomPosition, Quaternion.identity);
-        GameObject fire= PhotonNetwork.Instantiate(FirePoint.name, randomPosition, Quaternion.identity);
-        fire.transform.SetParent(Player.transform);
-        GameObject bomb=PhotonNetwork.Instantiate(Bomb.name, randomPosition, Quaternion.identity);
-        bomb.transform.SetParent(Player.transform);
-        bomb.SetActive(false);
+        //GameObject fire= PhotonNetwork.Instantiate(FirePoint.name, randomPosition, Quaternion.identity);
+        //fire.transform.SetParent(Player.transform);
+        //GameObject bomb=PhotonNetwork.Instantiate(Bomb.name, randomPosition, Quaternion.identity);
+        //bomb.transform.SetParent(Player.transform);
+        //bomb.SetActive(false);
 
 
 
