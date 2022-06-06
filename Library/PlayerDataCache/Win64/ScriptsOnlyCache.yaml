@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - Laser_Behavior
     - LobbyManager
     - Move_To_Tutorial
+    - Music_Control
     - Platform_Behavior
     - PlayMove
     - PlayerAttack
@@ -35,8 +36,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -61,8 +60,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -139,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 74
@@ -175,6 +178,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3560}
     - Class: 114
       Script: {instanceID: 3944}
+    - Class: 114
+      Script: {instanceID: 4172}
     - Class: 114
       Script: {instanceID: 4290}
     - Class: 114
@@ -466,6 +471,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -552,6 +561,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6232}
     - Class: 114
       Script: {instanceID: 6324}
+    - Class: 114
+      Script: {instanceID: 61648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -986,7 +997,7 @@ ScriptsOnlyBuild:
     className: SplineWalker
   - hash:
       serializedVersion: 2
-      Hash: e382748a5de309f0716c85811f0eb0b0
+      Hash: 4ca77c72e5d72bb4267367f2f0f2236c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpawnPlayers
@@ -1694,7 +1705,7 @@ ScriptsOnlyBuild:
     className: LobbyMainPanel
   - hash:
       serializedVersion: 2
-      Hash: 3dbe632ed6ac00f0c855a890061639dd
+      Hash: 5bb6d0558b9533f7e001a5150c89d603
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerAttack
@@ -2172,6 +2183,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Music_Control
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

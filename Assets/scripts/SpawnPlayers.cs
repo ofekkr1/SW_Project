@@ -16,9 +16,10 @@ public class SpawnPlayers : MonoBehaviour
     public float maxX;
     public float maxY;
     public static int height = 1;
-    private int currentBomb;
+    private GameObject currentBomb;
     public GameObject Countdown;
     public static GameObject[] Bombs;
+    public GameObject bomb;
     Vector2 randomPosition = new Vector2(1, -6);
 
     private void Start()
@@ -43,7 +44,6 @@ public class SpawnPlayers : MonoBehaviour
         if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
         {
             randomPosition = new Vector2(3, -6);
-            //PhotonNetwork.Instantiate(Countdown.name, new Vector2(3, 3), Quaternion.identity);
 
 
         }
@@ -63,8 +63,9 @@ public class SpawnPlayers : MonoBehaviour
         }
 
           Player = PhotonNetwork.Instantiate(Player.name, randomPosition, Quaternion.identity);
-       
-       
+          //currentBomb=PhotonNetwork.Instantiate(bomb.name, new Vector2(3, -100), Quaternion.identity);
+          //currentBomb.SetActive(false);
+
 
 
 
