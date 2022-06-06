@@ -1292,6 +1292,7 @@ MonoBehaviour:
   playerItemList: []
   playerItemPrefab: {fileID: 2016635887931488415, guid: 8864720d32f65f94c90b8dce3be1736c, type: 3}
   playerItemParent: {fileID: 1303756557}
+  PlayButton: {fileID: 1184767695}
 --- !u!1 &1015258586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,7 +1458,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1184767698}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 962414936}
+        m_TargetAssemblyTypeName: LobbyManager, Assembly-CSharp
+        m_MethodName: OnClickPlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1184767698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1671,7 +1684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -30, y: 0.00064849854}
+  m_AnchoredPosition: {x: -30, y: 0.000005722046}
   m_SizeDelta: {x: 0, y: 250}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1303756556
@@ -1728,7 +1741,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: 30
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0

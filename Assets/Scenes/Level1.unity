@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca26cc3a7eeb21e48966fa4382bd5de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 20
+  timer: 0
   text: {fileID: 6882384171767269314}
 --- !u!1 &1566439177
 GameObject:
@@ -627,14 +627,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c0297d4db4f0d343af37b36714d7bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player_1: {fileID: 5810674311172830608, guid: 1d9bb82c49674cc4b8b57792faa16757, type: 3}
-  Player_2: {fileID: 4962443193574317634, guid: 5e367ed377193154db6b89fff9d60dec, type: 3}
-  Player_3: {fileID: 4135343667411036176, guid: dddd40c4218a8fd49a7043ac116305aa, type: 3}
-  Player_4: {fileID: 5441041451248480871, guid: 02103620ff413e84b886af093817a140, type: 3}
+  Players:
+  - {fileID: 5810674311172830608, guid: 1d9bb82c49674cc4b8b57792faa16757, type: 3}
+  - {fileID: 4962443193574317634, guid: 5e367ed377193154db6b89fff9d60dec, type: 3}
+  - {fileID: 4135343667411036176, guid: dddd40c4218a8fd49a7043ac116305aa, type: 3}
+  - {fileID: 5441041451248480871, guid: 02103620ff413e84b886af093817a140, type: 3}
   Terrarian: {fileID: 5209207069250529739, guid: 5ce8071636dd40a43b742c3be5dd2b66, type: 3}
   Camera: {fileID: 8341987200714272024, guid: e04bdebc3d80b214882cd185b135e54b, type: 3}
-  FirePoint: {fileID: 8094170747312248771, guid: f0099f037537e0245b05677b3277b4b8, type: 3}
-  Bomb: {fileID: 2869507548539752678, guid: cfbaf3f0595f04e43b5ed1e78f8a95bd, type: 3}
   minX: 0
   minY: 0
   maxX: 0
@@ -1026,6 +1025,10 @@ PrefabInstance:
     - target: {fileID: 1586281453189380013, guid: e04bdebc3d80b214882cd185b135e54b, type: 3}
       propertyPath: m_Name
       value: something
+      objectReference: {fileID: 0}
+    - target: {fileID: 1586281453189380022, guid: e04bdebc3d80b214882cd185b135e54b, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e04bdebc3d80b214882cd185b135e54b, type: 3}

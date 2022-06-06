@@ -24,13 +24,22 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public PlayerItem playerItemPrefab;
     public Transform playerItemParent;
 
-
+    public GameObject PlayButton;
 
 
     // Start is called before the first frame update
     void Start()
     {
         PhotonNetwork.JoinLobby();
+    }
+
+    void Update()
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            PlayButton.SetActive(true);
+        }
+        else PlayButton.SetActive(false);
     }
 
     public void OnClickCreate()
@@ -82,6 +91,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void OnClickLeaveRoom()
     {
         PhotonNetwork.LeaveRoom();
+        
     }
 
     public override void OnLeftRoom()
@@ -126,5 +136,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
         UpdatePlayerList();
+    }
+
+    public void OnClickPlayButton()
+    {
+        PhotonNetwork.LoadLevel("Level1");
     }
 }

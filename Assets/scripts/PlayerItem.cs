@@ -24,6 +24,8 @@ public class PlayerItem : MonoBehaviourPunCallbacks
     {
         backgroundImage = GetComponent<Image>();
         playerAvatar.sprite = avatars[0];
+        playerProperties["playerAvatar"] = 0;
+        PhotonNetwork.SetPlayerCustomProperties(playerProperties);
     }
     public void SetPlayerInfo(Player _player)
     {

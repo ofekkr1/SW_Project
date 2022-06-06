@@ -153,7 +153,7 @@ MonoBehaviour:
   cam: {fileID: 9206446848759141979, guid: ec4ba34ad4b3e0f48817893644273537, type: 3}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 8
   PlatformLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -188,14 +188,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5441041451248480871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b47a69bc5999774f90a3b48bbf36307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 0
   firePoint: {fileID: 5441041451309987039}
-  bomb: {fileID: 2869507548539752678, guid: cfbaf3f0595f04e43b5ed1e78f8a95bd, type: 3}
 --- !u!114 &912513575876029663
 MonoBehaviour:
   m_ObjectHideFlags: 0
