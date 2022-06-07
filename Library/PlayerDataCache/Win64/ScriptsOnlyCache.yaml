@@ -46,11 +46,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -60,10 +57,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -110,7 +105,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3558}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -191,9 +186,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -360,9 +355,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5964}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -415,13 +410,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 5626}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 5704}
+      Script: {instanceID: 5706}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5964}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -552,17 +547,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5106}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 5964}
     - Class: 114
-      Script: {instanceID: 6324}
+      Script: {instanceID: 6234}
     - Class: 114
-      Script: {instanceID: 61648}
+      Script: {instanceID: 6326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1915,6 +1910,12 @@ ScriptsOnlyBuild:
     className: ConnectionHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Music_Control
+  - hash:
+      serializedVersion: 2
       Hash: 3ba023cd67d72cace33969ab863e0fd4
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -2183,12 +2184,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Music_Control
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
