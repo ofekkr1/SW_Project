@@ -63,8 +63,7 @@ public class SpawnPlayers : MonoBehaviour
         }
 
           Player = PhotonNetwork.Instantiate(Player.name, randomPosition, Quaternion.identity);
-          //currentBomb=PhotonNetwork.Instantiate(bomb.name, new Vector2(3, -100), Quaternion.identity);
-          //currentBomb.SetActive(false);
+         
 
 
 

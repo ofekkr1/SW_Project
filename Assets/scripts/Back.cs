@@ -16,7 +16,7 @@ public class Back : MonoBehaviour
                 PhotonNetwork.Disconnect();
             }
             SceneManager.LoadScene(sceneName: "SampleScene");
-            PhotonNetwork.LeaveRoom();
+            if(PhotonNetwork.CurrentRoom!=null)PhotonNetwork.LeaveRoom();
         }
     }
 }
