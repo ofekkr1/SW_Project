@@ -12,7 +12,7 @@ The game continues even after there is only one player remaining, as he can beat
 
 ## how to play the game
 The exe file is located in the "Build" folder, activate it and have fun!
-***In order for the game to work, the whole "build" folder should be imported
+***In order for the game to work, the whole "build" folder should be imported***
 
 ### pre game functions
 Every user will start at the main menu, from there, the user can choose 4 different options:
